@@ -5,4 +5,4 @@ from subprocess import call
 
 home = os.getenv("HOME")
 call(["cp", "-rf", ".sets", ".fconfig.json", home])
-call(["cp", "-rf", "flashcards","/usr/local"])
+call(["cp", "-rf", "flashcards","/usr/sbin"])
