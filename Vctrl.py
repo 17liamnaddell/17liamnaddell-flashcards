@@ -21,4 +21,5 @@ class Verctrl:
         return var
     def update_and_end(self, FDIR, sets):
         call(["rm", "-rf", FDIR+"/flashcards"])
+        print(FDIR)
         call(["cp", "-rf", sets + "/fcards-python/fcards", FDIR + "/flashcards"])
