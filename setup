@@ -3,6 +3,6 @@
 import os
 from subprocess import call
 home = os.getenv("HOME")
-call(["cp", "-f", ".sets", ".fconfig.json", home])
+call(["cp", "-rf", ".sets", ".fconfig.json", home])
 
 
