@@ -1,8 +1,4 @@
-#!/usr/bin/env python3
+#!/bin/sh
 
-import os
-from subprocess import call
-
-home = os.getenv("HOME")
-call(["cp", "-rf", ".sets", ".fconfig.json", home])
-call(["cp", "-rf", "flashcards","Vctrl.py", "colors.py", "/usr/sbin"])
+cp -rf .sets .fconfig.json home
+cp -rf flashcards Vctrl.py colors.py /usr/sbin
