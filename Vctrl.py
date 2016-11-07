@@ -1,7 +1,7 @@
 
 from subprocess import call
 import os
-
+import subprocess
 
 
 class Verctrl:
@@ -13,7 +13,9 @@ class Verctrl:
             call(["rm", "-rf", "fcards-python"])
         except FileNotFoundError:
             pass
-        call(["git", "clone", link+".git"])
+        FNUL=open(os.devnull, 'w')
+        call(["git", "clone", link+".git"], stdout=FNUL, stderr=subprocess.STDOUT)
+        
         cersions = open("fcards-python/VERSION", 'r')
         var = cersions.read()
         cersions.close() 
