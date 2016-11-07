@@ -14,6 +14,7 @@ For example, many many modes, a config file, and lots of features.</p>
 
 ##uninstall
 run `sudo ./uninstall`
+The uninstall file is in 17liamnaddell-flashcards.
 ##usage
 Right now, there are three options, create a set, used with -s <name>,
 and run, -r. -r will have you select a file with autocompletion. and
