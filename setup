@@ -2,5 +2,7 @@
 
 ./files
 ./flashcards
-chown -R $USER:$USER ~/.sets/fcards-python
+echo -n "Input your user, the one as said in /home/<yourusernamehere>"
+read Auser
+chown -R $Auser:$Auser ~/.sets/fcards-python
 chmod -R =rwx ~/.sets/fcards-python
