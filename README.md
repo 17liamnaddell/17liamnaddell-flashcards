@@ -12,9 +12,7 @@ How to install:
 <li>At the prompt, type your home directory's full path with a /.sets at the end, for example, /home/robert/.sets, if you are in root, /home/root/.sets. If you type this wrong, dont worry, you will have another chance when you run the program</li>
 </ol>
 ##uninstall
-Remove the files /usr/sbin/Vctrl.py
-/usr/sbin/colors.py
-/usr/sbin/flashcards
+run `sudo ./uninstall`
 ##usage
 Right now, there are three options, create a set, used with -s <name>,
 and run, -r. -r will have you select a file with autocompletion. and
