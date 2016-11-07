@@ -1,4 +1,4 @@
 #!/bin/sh
 
-cp -rf .sets .fconfig.json home
+cp -rf .sets .fconfig.json ~
 cp -rf flashcards Vctrl.py colors.py /usr/sbin
