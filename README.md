@@ -8,7 +8,8 @@ For example, many many modes, a config file, and lots of features.</p>
 How to install:
 <ol>
 <li>Clone this project using https</li>
-<li>run the setup script(using `sudo ./setup` )</li>
+<li>run the setup script under sudo user </li>
+`sudo ./setup`
 <li>At the prompt, type your home directory's full path with a /.sets at the end, for example, /home/robert/.sets, if you are in root, /home/root/.sets. If you type this wrong, dont worry, you will have another chance when you run the program</li>
 </ol>
 ##uninstall
