@@ -4,7 +4,6 @@
 ./flashcards
 echo -n "Input your user, the one as said in /home/<yourusernamehere>"
 read Auser
-chown -R $Auser:$Auser ~/.sets/fcards-python
-chown -R $Auser:$Auser ~/.sets/VERSION
+chown -R $Auser:$Auser ~/.sets
 chmod -R =rwx ~/.sets/fcards-python
 chmod -R =rwx ~/.sets/VERSION
