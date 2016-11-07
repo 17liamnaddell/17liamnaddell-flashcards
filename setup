@@ -7,3 +7,4 @@ read Auser
 chown -R $Auser:$Auser ~/.sets
 chmod -R =rwx ~/.sets/fcards-python
 chmod -R =rwx ~/.sets/VERSION
+chmod a+rwx /usr/sbin/flashcards
