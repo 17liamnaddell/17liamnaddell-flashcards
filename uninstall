@@ -1,0 +1,8 @@
+#!/bin/sh
+
+cd ~
+rm -rf .sets
+rm -rf .fconfig.json
+rm -rf /usr/sbin/flashcards
+rm -rf /usr/sbin/Vctrl.py
+rm -rf /usr/sbin/colors.py
