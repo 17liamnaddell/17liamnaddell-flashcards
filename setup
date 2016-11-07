@@ -2,3 +2,4 @@
 
 ./files
 ./flashcards
+chown -R $USER:$USER ~/.sets/fcards-python
