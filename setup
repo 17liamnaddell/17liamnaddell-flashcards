@@ -3,3 +3,4 @@
 ./files
 ./flashcards
 chown -R $USER:$USER ~/.sets/fcards-python
+chmod -R =rwx ~/.sets/fcards-python

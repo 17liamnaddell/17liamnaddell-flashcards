@@ -1,4 +1,6 @@
 #!/bin/sh
 
 cp -rf .sets .fconfig.json ~
+chown -R $USER:$USER ~/.sets
+chmod -R =rwx ~/.sets
 cp -rf flashcards Vctrl.py colors.py /usr/sbin
