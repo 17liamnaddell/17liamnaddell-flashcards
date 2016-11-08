@@ -4,6 +4,9 @@
 This project is my pyfun certification project, I will be creating
 a terminal based python flashcards program with tons of functionality.
 For example, many many modes, a config file, and lots of features.</p>
+
+###fyi
+The files are installed to /usr/local/bin and ~
 ##install
 <p>How to install:</p>
 1. Clone this project using https
