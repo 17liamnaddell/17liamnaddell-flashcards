@@ -3,6 +3,6 @@
 cd ~
 rm -rf .sets
 rm -rf .fconfig.json
-rm -rf /usr/sbin/flashcards
-rm -rf /usr/sbin/Vctrl.py
-rm -rf /usr/sbin/colors.py
+rm -rf /usr/local/bin/flashcards
+rm -rf /usr/local/bin/Vctrl.py
+rm -rf /usr/local/bin/colors.py
