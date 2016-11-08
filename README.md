@@ -8,7 +8,7 @@ For example, many many modes, a config file, and lots of features.</p>
 <p>How to install:</p>
 1. Clone this project using https
 1. run the setup script under sudo user ie `sudo ./setup`
-1. At the prompt, type your home directory's full path with a /.sets at the end, for example, /home/robert/.sets, if you are in root, /home/root/.sets. If you type this wrong, dont worry, you will have another chance when you run the program
+1. Enter your username for linux
 
 ---
 
