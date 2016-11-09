@@ -3,4 +3,4 @@
 cp -rf .sets .fconfig.json ~
 chown -R $USER:$USER ~/.sets
 chmod -R =rwx ~/.sets
-cp -rf flashcards Vctrl.py colors.py /usr/local/bin
+cp -rf flashcards Vctrl.py colors.py emoji.py /usr/local/bin
